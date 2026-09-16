@@ -1,63 +1,89 @@
 ## Hi, I'm Mohamed Essam 👋
 
-I build tools that help companies get unstuck.
+I build systems where the record has to be right — and I run
+**[Trippy Solutions](https://trippysolutions.com)**.
 
-Most of my work starts the same way: a team has a system that still runs the business, nobody wants
-to touch it, and the people who built it have moved on. The software works — that's the problem. It
-works well enough that replacing it is always next year's project, and every year it gets more
-expensive to leave alone.
-
-That's the gap I build for. Not greenfield projects, but the awkward middle: legacy systems,
-migrations, modernisation, and the questions nobody can answer without three weeks of someone's
-time.
+Most of my work comes down to the same thing: information that people depend on, living somewhere
+it can't be trusted. A patient's history scattered across paper files at three different clinics.
+Twenty years of business rules locked inside software nobody dares touch. In both cases the cost
+isn't the technology — it's that nobody can see the whole picture when they need it.
 
 ---
 
-### 🛠️ What I'm building now
+## 🏥 Trippy Med
 
-**[adfmig](https://github.com/trippysolutions/adfmig)** — Oracle ADF → Spring Boot.
+**A cloud platform for clinics and medical centres across Egypt.**
 
-ADF applications are still running payroll, licensing and case management at banks, ministries and
-telcos. The first question is always *"how much of this can we actually move?"* — and until now that
-answer cost a consultant three weeks of reading XML. adfmig answers it in about a minute: what
-carries across, what has to be rewritten by hand, and where the source doesn't say enough to
-migrate safely.
+A patient's medical journey usually lives in fragments: a paper file at one clinic, a prescription
+photographed on a phone, a lab result nobody kept. Every visit starts from scratch, and the doctor
+in front of you works from whatever you remember to mention.
 
-It runs entirely on your machine. Nothing uploaded, no model consulted, no network calls — because
-the code it reads is usually the reason that company has a compliance department.
+Trippy Med puts that journey in one continuous record, and connects everyone who touches it —
+patients, doctors, nurses, reception staff and centre owners in a single system.
 
----
+**For patients**
+Their history follows them: allergies, chronic conditions, medications, lab results with trend
+charts showing how something like blood sugar or blood pressure moves over time, e-prescriptions
+with verifiable QR codes, invoices and past appointments — all from their phone. They book with the
+right doctor at the right centre, get a queue token for walk-in visits, and are alerted the moment
+something needs attention.
 
-### 🎯 What I'm trying to do
+**For the clinical team**
+A complete, up-to-date picture before the consultation begins. Follow-ups that don't fall through
+the cracks. Every record tied back to its source.
 
-**Give the free thing away properly.** The assessment half of adfmig is MIT licensed — no limits, no
-account, no licence check, nothing withheld. If you only ever want to know how big your problem is,
-you never have to pay me. The paid half is genuinely separate code, not a switch I flipped off.
+**Why it matters**
+Continuity and safety. Because it follows a patient over time rather than one visit at a time, it
+gives patient and doctor a shared, trustworthy source of truth — instead of repeated tests,
+conflicting treatment, and a history reconstructed from memory.
 
-**Be honest about what a tool can't do.** adfmig migrates the backend, not the front end — and it
-says so in the README, not on page three. I'd rather lose a bad-fit customer early than have an
-unhappy one later.
-
-**Build for the people doing the work, not for the demo.** Every real defect this tool has had was
-found by running it against a real application and comparing the output against real rows — never
-by reading the code and assuming it was fine.
-
-**Leave teams able to carry on without me.** What the tool generates is an ordinary project you own
-outright. It doesn't depend on adfmig, there's nothing to keep subscribing to, and no lock-in
-waiting a year out.
+*Microservices: Spring Boot · Angular · React Native / Expo. Patient privacy is the first design
+constraint, not a later pass — it holds people's health data.*
 
 ---
 
-### 💬 Working together
+## 🛠️ adfmig
 
-I work with teams facing a migration they've been postponing — assessing what's actually there,
-planning it honestly, and building the tooling that makes it repeatable instead of heroic.
+**Open-source tooling for organisations stuck on Oracle ADF.**
 
-If you have a system like that, I'd like to hear about it.
+ADF applications still run payroll, licensing and case management at banks, ministries and telcos.
+The people who wrote them have moved on, and the first question is always *"how much of this can we
+actually move?"* — an answer that used to cost a consultant three weeks of reading XML.
 
-🌍 [trippysolutions.com](https://trippysolutions.com)
-🐛 Something read wrong? [Open an issue](https://github.com/trippysolutions/adfmig/issues) — genuinely, that's the most useful thing you can send me.
+adfmig answers it in about a minute, entirely on your own machine: nothing uploaded, no network
+calls. The assessment half is **MIT licensed** and complete — no limits, no account, nothing
+withheld.
+
+**[github.com/trippysolutions/adfmig](https://github.com/trippysolutions/adfmig)**
 
 ---
 
-<sub>Trippy Solutions · Oracle ADF modernisation and legacy migration tooling</sub>
+## 🎯 How I like to work
+
+**Give the free thing away properly.** If someone only ever needs to understand the size of their
+problem, they shouldn't have to pay me to find out. What's free is genuinely free, not a demo with
+the useful parts removed.
+
+**Be honest about what something can't do.** Every tool has an edge. I'd rather say where it is up
+front and lose a bad-fit customer early than have an unhappy one later.
+
+**Build for the people doing the work, not for the demo.** Real defects come from running software
+against real data and comparing the result — never from reading the code and assuming it's fine.
+
+**Leave people able to carry on without me.** No lock-in waiting a year out, and nothing that stops
+working when someone stops paying attention to it.
+
+---
+
+## 💬 Let's talk
+
+I work with **clinics and medical centres** that want their patient records to hold together, and
+with **teams facing a modernisation** they've been postponing for years.
+
+If either sounds like you, I'd like to hear about it.
+
+🌍 **[trippysolutions.com](https://trippysolutions.com)**
+
+---
+
+<sub>Trippy Solutions — healthcare platforms and enterprise modernisation · Egypt</sub>
